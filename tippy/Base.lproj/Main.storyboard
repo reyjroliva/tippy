@@ -72,6 +72,9 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="SHZ-Kn-GeB"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A44-lM-unn">
                                 <rect key="frame" x="200" y="204" width="148" height="27"/>
@@ -90,6 +93,7 @@
                     <navigationItem key="navigationItem" title="Tip Calulator" id="7Rv-O1-lQM"/>
                     <connections>
                         <outlet property="billField" destination="3QN-ed-NNh" id="G4A-iP-iXG"/>
+                        <outlet property="tipControl" destination="Pnr-7e-Owk" id="iUD-7J-0rU"/>
                         <outlet property="tipLabel" destination="A44-lM-unn" id="xK4-F5-eWX"/>
                         <outlet property="totalLabel" destination="yzA-vL-HYm" id="Dd6-ab-BiH"/>
                     </connections>
